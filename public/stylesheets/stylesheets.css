@@ -1,0 +1,50 @@
+/* css reset */
+
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700&display=swap&subset=chinese-traditional");
+body {
+    background-color: #f6f7f8;
+    font-family: "Noto Sans TC", sans-serif;
+    /* 設定字型 */
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    /* 拿掉底線 */
+}
+
+
+/* start css */
+
+.container {
+    width: 85%;
+    margin: 1rem auto 3rem auto;
+    display: grid;
+    grid-template-columns: auto 20% auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    margin: 0 10px;
+    color: black;
+    background-color: rgb(209, 209, 209);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+}
